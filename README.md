@@ -479,29 +479,40 @@ A structured learning roadmap for progressing from Python fundamentals to backen
 
 ---
 
-## Week 18 — Docker & CI/CD
+## Week 18 — CI/CD & Deployment
 
 **Dec 14–20**
 
 ### Learn
 
-* [ ] Docker
-* [ ] Images
-* [ ] Containers
-* [ ] Dockerfile
-* [ ] Docker Compose
-* [ ] PostgreSQL container
 * [ ] GitHub Actions
+* [ ] Workflow files
+* [ ] YAML basics
 * [ ] Automated testing
-* [ ] CI/CD
+* [ ] Run tests on every push
+* [ ] Run tests on pull requests
+* [ ] Build/check pipeline
+* [ ] Environment variables
+* [ ] Deployment workflow
+* [ ] Basic production configuration
 
 ### Side Project
 
-**Containerized REST API**
+**Automated Python REST API**
+
+Configure a previous FastAPI project with:
+
+* [ ] Automated tests
+* [ ] GitHub Actions workflow
+* [ ] Test on push
+* [ ] Test on pull request
+* [ ] Environment configuration
+* [ ] Deployment process
+* [ ] Updated README with CI/CD instructions
 
 ### Achievement
 
-> Containerize and automate a Python backend application.
+> Automate testing and deployment checks for a Python backend application using GitHub Actions and CI/CD practices.
 
 ---
 
