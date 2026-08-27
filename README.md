@@ -1,680 +1,315 @@
-# Python Programming Roadmap
+# aug-to-dec-2026-Python-Practice
 
-A structured learning roadmap for progressing from Python fundamentals to backend development with **FastAPI, PostgreSQL, testing, Docker, and CI/CD**.
-
-**Timeline:** August 19 – December 31, 2026
-**Goal:** Beginner → Intermediate Python → Backend Development
+# Daily Beginner's Python Programming Guide (August – December 2026)
 
 ---
 
-## Roadmap
+Date Started: August 19, 2026
 
-| Week | Dates        | Focus                       | Weekly Project            |
-| ---- | ------------ | --------------------------- | ------------------------- |
-| 01   | Aug 19–23    | Python Setup & Basics       | Personal Information CLI  |
-| 02   | Aug 24–30    | Conditions & Loops          | Number Guessing Game      |
-| 03   | Aug 31–Sep 6 | Collections                 | Student Record CLI        |
-| 04   | Sep 7–13     | Functions & Errors          | CLI Calculator            |
-| 05   | Sep 14–20    | Files & JSON                | Expense Tracker           |
-| 06   | Sep 21–27    | Modules & Packages          | Contact Manager           |
-| 07   | Sep 28–Oct 4 | OOP                         | Library Management System |
-| 08   | Oct 5–11     | Environments & Dependencies | Inventory CLI             |
-| 09   | Oct 12–18    | Advanced Python             | Log Analyzer              |
-| 10   | Oct 19–25    | Type Hints & Data Modeling  | Task Manager              |
-| 11   | Oct 26–Nov 1 | Testing & Clean Code        | Tested Expense Tracker    |
-| 12   | Nov 2–8      | HTTP & REST                 | Todo REST API             |
-| 13   | Nov 9–15     | FastAPI                     | Todo FastAPI              |
-| 14   | Nov 16–22    | SQL & PostgreSQL            | Bookstore API             |
-| 15   | Nov 23–29    | Authentication              | Authentication API        |
-| 16   | Nov 30–Dec 6 | Async Python                | Async API Aggregator      |
-| 17   | Dec 7–13     | Production Practices        | Production Todo API       |
-| 18   | Dec 14–20    | Docker & CI/CD              | Containerized API         |
-| 19   | Dec 21–27    | Final Project               | Transaction API           |
-| 20   | Dec 28–31    | Testing & Deployment        | Finalize Portfolio        |
+## August: Python Fundamentals
+
+### Week 1: Python Basics
+
+- [x] Day 1: Install Python, set up your editor (VS Code recommended)
+- [x] Day 2: Understand variables and basic syntax
+- [x] Day 3: Learn data types (`int`, `float`, `str`, `bool`) and type conversion
+- [x] Day 4: Practice `print()` and `input()`
+- [x] Day 5: Combine variables, types, and operators to write small scripts
+
+### Week 1 Side Project:
+
+Build a Personal Information CLI that collects and displays basic user info.
 
 ---
 
-# August — Python Fundamentals
+### Week 2: Conditions & Loops
 
-## Week 01 — Python Basics
+- [x] Day 1: Learn `if / elif / else` and boolean logic
+- [ ] Day 2: Understand `while` loops
+- [ ] Day 3: Understand `for` loops and `range()`
+- [ ] Day 4: Practice `break` and `continue`
+- [ ] Day 5: Write programs using nested loops
 
-**Aug 19–23**
+### Week 2 Side Project:
 
-### Learn
-
-* [x] Python installation & setup
-* [x] VS Code
-* [x] Variables
-* [x] Data types
-* [x] `print()`
-* [x] `input()`
-* [x] Type conversion
-* [x] Basic operators
-
-### Side Project
-
-**Personal Information CLI**
-
-### Achievement
-
-> Understand Python syntax and write simple programs using variables, input, and operators.
+Build a Number Guessing Game that gives hints if the guess is too high or low.
 
 ---
 
-## Week 02 — Conditions & Loops
+### Week 3: Collections
 
-**Aug 24–30**
+- [ ] Day 1: Learn lists
+- [ ] Day 2: Learn tuples and sets
+- [ ] Day 3: Learn dictionaries
+- [ ] Day 4: Practice indexing & slicing
+- [ ] Day 5: Practice nested collections and collection methods
 
-### Learn
+### Week 3 Side Project:
 
-* [ ] `if / elif / else`
-* [ ] Boolean logic
-* [ ] `while`
-* [ ] `for`
-* [ ] `range()`
-* [ ] `break`
-* [ ] `continue`
-* [ ] Nested loops
-
-### Side Project
-
-**Number Guessing Game**
-
-### Achievement
-
-> Build programs that make decisions and repeat operations.
+Build a Student Record CLI that stores, searches, and modifies structured data.
 
 ---
 
-## Week 03 — Collections
+## September: Core & Intermediate Python
 
-**Aug 31–Sep 6**
+### Week 4: Functions & Error Handling
 
-### Learn
+- [ ] Day 1: Learn functions, parameters, and arguments
+- [ ] Day 2: Learn return values and default arguments
+- [ ] Day 3: Practice `*args` and `**kwargs`
+- [ ] Day 4: Learn `try / except` error handling
+- [ ] Day 5: Use `raise` to build input validation
 
-* [ ] Lists
-* [ ] Tuples
-* [ ] Sets
-* [ ] Dictionaries
-* [ ] Indexing & slicing
-* [ ] Nested collections
-* [ ] Collection methods
+### Week 4 Side Project:
 
-### Side Project
-
-**Student Record CLI**
-
-### Achievement
-
-> Store, search, modify, and organize structured data.
+Build a CLI Calculator that handles invalid input safely.
 
 ---
 
-# September — Core & Intermediate Python
+### Week 5: Files & Data
 
-## Week 04 — Functions & Error Handling
+- [ ] Day 1: Learn file reading
+- [ ] Day 2: Learn file writing and `pathlib`
+- [ ] Day 3: Practice working with CSV files
+- [ ] Day 4: Practice working with JSON and serialization
+- [ ] Day 5: Build persistent data patterns
 
-**Sep 7–13**
+### Week 5 Side Project:
 
-### Learn
-
-* [ ] Functions
-* [ ] Parameters
-* [ ] Arguments
-* [ ] Return values
-* [ ] Default arguments
-* [ ] `*args`
-* [ ] `**kwargs`
-* [ ] `try / except`
-* [ ] `raise`
-
-### Side Project
-
-**CLI Calculator**
-
-### Achievement
-
-> Create reusable functions and handle invalid input safely.
+Build an Expense Tracker that saves and loads data.
 
 ---
 
-## Week 05 — Files & Data
+### Week 6: Modules & Packages
 
-**Sep 14–20**
+- [ ] Day 1: Learn `import` and custom modules
+- [ ] Day 2: Learn packages and `__init__.py`
+- [ ] Day 3: Explore the standard library
+- [ ] Day 4: Practice `datetime` and `random`
+- [ ] Day 5: Practice `pathlib` and `os`
 
-### Learn
+### Week 6 Side Project:
 
-* [ ] File reading
-* [ ] File writing
-* [ ] `pathlib`
-* [ ] CSV
-* [ ] JSON
-* [ ] Serialization
-* [ ] Persistent data
-
-### Side Project
-
-**Expense Tracker**
-
-### Achievement
-
-> Build applications that save and load data.
+Build a Contact Manager organized into multiple modules.
 
 ---
 
-## Week 06 — Modules & Packages
+### Week 7: Object-Oriented Programming
 
-**Sep 21–27**
+- [ ] Day 1: Learn classes and objects
+- [ ] Day 2: Learn attributes, methods, and `__init__`
+- [ ] Day 3: Learn encapsulation
+- [ ] Day 4: Learn inheritance and polymorphism
+- [ ] Day 5: Learn composition
 
-### Learn
+### Week 7 Side Project:
 
-* [ ] `import`
-* [ ] Custom modules
-* [ ] Packages
-* [ ] `__init__.py`
-* [ ] Standard library
-* [ ] `datetime`
-* [ ] `random`
-* [ ] `pathlib`
-* [ ] `os`
-
-### Side Project
-
-**Contact Manager**
-
-### Achievement
-
-> Organize Python applications into multiple modules.
+Build a Library Management System using OOP.
 
 ---
 
-## Week 07 — Object-Oriented Programming
+## October: Professional Python
 
-**Sep 28–Oct 4**
+### Week 8: Environments & Dependencies
 
-### Learn
+- [ ] Day 1: Learn `venv` and `pip`
+- [ ] Day 2: Learn third-party packages and `requirements.txt`
+- [ ] Day 3: Learn `.env` and environment variables
+- [ ] Day 4: Learn `.gitignore`
+- [ ] Day 5: Practice proper project structure
 
-* [ ] Classes
-* [ ] Objects
-* [ ] Attributes
-* [ ] Methods
-* [ ] `__init__`
-* [ ] Encapsulation
-* [ ] Inheritance
-* [ ] Polymorphism
-* [ ] Composition
+### Week 8 Side Project:
 
-### Side Project
-
-**Library Management System**
-
-### Achievement
-
-> Design applications using object-oriented programming.
+Build an Inventory Management CLI as an isolated, well-structured project.
 
 ---
 
-# October — Professional Python
+### Week 9: Advanced Python
 
-## Week 08 — Environments & Dependencies
+- [ ] Day 1: Learn list and dictionary comprehensions
+- [ ] Day 2: Learn set comprehensions and iterators
+- [ ] Day 3: Learn generators and `yield`
+- [ ] Day 4: Learn decorators
+- [ ] Day 5: Learn context managers
 
-**Oct 5–11**
+### Week 9 Side Project:
 
-### Learn
-
-* [ ] `venv`
-* [ ] `pip`
-* [ ] Third-party packages
-* [ ] `requirements.txt`
-* [ ] `.env`
-* [ ] Environment variables
-* [ ] `.gitignore`
-* [ ] Project structure
-
-### Side Project
-
-**Inventory Management CLI**
-
-### Achievement
-
-> Create isolated and properly structured Python projects.
+Build a Log Analyzer using Python's advanced language features.
 
 ---
 
-## Week 09 — Advanced Python
+### Week 10: Type Hints & Data Modeling
 
-**Oct 12–18**
+- [ ] Day 1: Learn type annotations and function types
+- [ ] Day 2: Learn collection types
+- [ ] Day 3: Learn `Optional` and `Union`
+- [ ] Day 4: Learn `TypedDict` and dataclasses
+- [ ] Day 5: Learn type aliases
 
-### Learn
+### Week 10 Side Project:
 
-* [ ] List comprehensions
-* [ ] Dictionary comprehensions
-* [ ] Set comprehensions
-* [ ] Iterators
-* [ ] Generators
-* [ ] `yield`
-* [ ] Decorators
-* [ ] Context managers
-
-### Side Project
-
-**Log Analyzer**
-
-### Achievement
-
-> Use Python's advanced language features effectively.
+Build a Task Management System with type-aware, maintainable code.
 
 ---
 
-## Week 10 — Type Hints & Data Modeling
+### Week 11: Testing & Clean Code
 
-**Oct 19–25**
+- [ ] Day 1: Practice debugging and assertions
+- [ ] Day 2: Learn `pytest` and unit testing
+- [ ] Day 3: Learn integration testing and fixtures
+- [ ] Day 4: Learn logging
+- [ ] Day 5: Study SOLID principles, separation of concerns, and refactoring
 
-### Learn
+### Week 11 Side Project:
 
-* [ ] Type annotations
-* [ ] Function types
-* [ ] Collection types
-* [ ] `Optional`
-* [ ] `Union`
-* [ ] `TypedDict`
-* [ ] Dataclasses
-* [ ] Type aliases
-
-### Side Project
-
-**Task Management System**
-
-### Achievement
-
-> Write clearer, more maintainable, and type-aware Python code.
+Refactor the Expense Tracker into a fully Tested Expense Tracker.
 
 ---
 
-## Week 11 — Testing & Clean Code
+## November: Python Backend Development
 
-**Oct 26–Nov 1**
+### Week 12: HTTP & REST
 
-### Learn
+- [ ] Day 1: Learn HTTP and request/response basics
+- [ ] Day 2: Learn HTTP methods and status codes
+- [ ] Day 3: Learn headers and JSON
+- [ ] Day 4: Learn REST principles
+- [ ] Day 5: Learn CRUD design
 
-* [ ] Debugging
-* [ ] Assertions
-* [ ] `pytest`
-* [ ] Unit testing
-* [ ] Integration testing
-* [ ] Fixtures
-* [ ] Logging
-* [ ] SOLID principles
-* [ ] Separation of concerns
-* [ ] Refactoring
+### Week 12 Side Project:
 
-### Side Project
-
-**Tested Expense Tracker**
-
-### Achievement
-
-> Build Python applications that are testable and maintainable.
+Build a Todo REST API Prototype.
 
 ---
 
-# November — Python Backend Development
+### Week 13: FastAPI
 
-## Week 12 — HTTP & REST
+- [ ] Day 1: Set up FastAPI and learn routes
+- [ ] Day 2: Learn path and query parameters
+- [ ] Day 3: Learn request bodies and Pydantic
+- [ ] Day 4: Learn validation and response models
+- [ ] Day 5: Learn error handling and API documentation
 
-**Nov 2–8**
+### Week 13 Side Project:
 
-### Learn
-
-* [ ] HTTP
-* [ ] Request/response
-* [ ] HTTP methods
-* [ ] HTTP status codes
-* [ ] Headers
-* [ ] JSON
-* [ ] REST principles
-* [ ] CRUD
-
-### Side Project
-
-**Todo REST API Prototype**
-
-### Achievement
-
-> Understand how backend APIs communicate with clients.
+Build a Todo FastAPI application.
 
 ---
 
-## Week 13 — FastAPI
+### Week 14: SQL & PostgreSQL
 
-**Nov 9–15**
+- [ ] Day 1: Learn relational databases and tables
+- [ ] Day 2: Learn primary keys and foreign keys
+- [ ] Day 3: Practice CRUD SQL
+- [ ] Day 4: Learn JOINs and indexes
+- [ ] Day 5: Learn transactions and PostgreSQL setup
 
-### Learn
+### Week 14 Side Project:
 
-* [ ] FastAPI setup
-* [ ] Routes
-* [ ] Path parameters
-* [ ] Query parameters
-* [ ] Request bodies
-* [ ] Pydantic
-* [ ] Validation
-* [ ] Response models
-* [ ] Error handling
-* [ ] API documentation
-
-### Side Project
-
-**Todo FastAPI**
-
-### Achievement
-
-> Build a functional REST API using FastAPI.
+Build a Bookstore API backed by PostgreSQL.
 
 ---
 
-## Week 14 — SQL & PostgreSQL
+### Week 15: Authentication & Authorization
 
-**Nov 16–22**
+- [ ] Day 1: Build registration and login
+- [ ] Day 2: Learn password hashing
+- [ ] Day 3: Learn JWT and access tokens
+- [ ] Day 4: Build protected routes
+- [ ] Day 5: Learn roles, permissions, and authorization
 
-### Learn
+### Week 15 Side Project:
 
-* [ ] Relational databases
-* [ ] Tables
-* [ ] Primary keys
-* [ ] Foreign keys
-* [ ] CRUD SQL
-* [ ] JOINs
-* [ ] Indexes
-* [ ] Transactions
-* [ ] PostgreSQL
-
-### Side Project
-
-**Bookstore API**
-
-### Achievement
-
-> Design and work with a relational PostgreSQL database.
+Build an Authentication API with protected endpoints and user roles.
 
 ---
 
-## Week 15 — Authentication & Authorization
+## December: Advanced Python & Production
 
-**Nov 23–29**
+### Week 16: Async Python
 
-### Learn
+- [ ] Day 1: Learn synchronous vs. asynchronous code
+- [ ] Day 2: Learn `asyncio` and coroutines
+- [ ] Day 3: Learn tasks and concurrent operations
+- [ ] Day 4: Learn async HTTP
+- [ ] Day 5: Learn async database operations
 
-* [ ] Registration
-* [ ] Login
-* [ ] Password hashing
-* [ ] JWT
-* [ ] Access tokens
-* [ ] Protected routes
-* [ ] Roles
-* [ ] Permissions
-* [ ] Authorization
+### Week 16 Side Project:
 
-### Side Project
-
-**Authentication API**
-
-### Achievement
-
-> Build an authenticated backend with user roles and protected endpoints.
+Build an Async API Aggregator.
 
 ---
 
-# December — Advanced Python & Production
+### Week 17: Production Practices
 
-## Week 16 — Async Python
+- [ ] Day 1: Learn application configuration and environment variables
+- [ ] Day 2: Learn logging and error handling
+- [ ] Day 3: Learn health checks and database migrations
+- [ ] Day 4: Learn pagination and filtering
+- [ ] Day 5: Learn API versioning and security basics
 
-**Nov 30–Dec 6**
+### Week 17 Side Project:
 
-### Learn
-
-* [ ] Synchronous vs asynchronous
-* [ ] `async`
-* [ ] `await`
-* [ ] `asyncio`
-* [ ] Coroutines
-* [ ] Tasks
-* [ ] Concurrent operations
-* [ ] Async HTTP
-* [ ] Async database operations
-
-### Side Project
-
-**Async API Aggregator**
-
-### Achievement
-
-> Understand and use asynchronous Python where appropriate.
+Upgrade the Todo API toward a Production-Ready Todo API.
 
 ---
 
-## Week 17 — Production Practices
+### Week 18: CI/CD & Deployment
 
-**Dec 7–13**
+- [ ] Day 1: Learn GitHub Actions and workflow files
+- [ ] Day 2: Learn YAML basics
+- [ ] Day 3: Set up automated testing on push and pull request
+- [ ] Day 4: Build the build/check pipeline and environment configuration
+- [ ] Day 5: Set up the deployment workflow and production configuration
 
-### Learn
+### Week 18 Side Project:
 
-* [ ] Application configuration
-* [ ] Environment variables
-* [ ] Logging
-* [ ] Error handling
-* [ ] Health checks
-* [ ] Database migrations
-* [ ] Pagination
-* [ ] Filtering
-* [ ] API versioning
-* [ ] Security basics
-
-### Side Project
-
-**Production-Ready Todo API**
-
-### Achievement
-
-> Improve a basic API toward production-quality standards.
+Turn a previous FastAPI project into an Automated Python REST API: add automated tests, a GitHub Actions workflow, test-on-push and test-on-PR, environment configuration, a deployment process, and an updated README with CI/CD instructions.
 
 ---
 
-## Week 18 — CI/CD & Deployment
+### Week 19: Final Portfolio Project — Transaction / Payment Management API
 
-**Dec 14–20**
+- [ ] Day 1: Build authentication (registration, login, password hashing, JWT, role-based authorization)
+- [ ] Day 2: Build user profile and user management
+- [ ] Day 3: Build transactions (create, history, status, reference, balance calculation)
+- [ ] Day 4: Design the database (PostgreSQL, relationships, indexes, migrations)
+- [ ] Day 5: Build REST endpoints, validation, error handling, API docs, and tests (unit, integration, auth, transaction)
 
-### Learn
+### Week 19 Side Project:
 
-* [ ] GitHub Actions
-* [ ] Workflow files
-* [ ] YAML basics
-* [ ] Automated testing
-* [ ] Run tests on every push
-* [ ] Run tests on pull requests
-* [ ] Build/check pipeline
-* [ ] Environment variables
-* [ ] Deployment workflow
-* [ ] Basic production configuration
-
-### Side Project
-
-**Automated Python REST API**
-
-Configure a previous FastAPI project with:
-
-* [ ] Automated tests
-* [ ] GitHub Actions workflow
-* [ ] Test on push
-* [ ] Test on pull request
-* [ ] Environment configuration
-* [ ] Deployment process
-* [ ] Updated README with CI/CD instructions
-
-### Achievement
-
-> Automate testing and deployment checks for a Python backend application using GitHub Actions and CI/CD practices.
+Build the complete Transaction / Payment Management API.
 
 ---
 
-## Week 19 — Final Portfolio Project
+### Week 20: Finalization & Deployment
 
-**Dec 21–27**
+- [ ] Day 1: Final testing and bug fixing
+- [ ] Day 2: Refactor and Dockerize
+- [ ] Day 3: Configure CI/CD and deploy
+- [ ] Day 4: Update README, document API/architecture, and prepare the portfolio
 
-### Project
+### Week 20 Side Project:
 
-# Transaction / Payment Management API
-
-### Features
-
-**Authentication**
-
-* [ ] Registration
-* [ ] Login
-* [ ] Password hashing
-* [ ] JWT
-* [ ] Role-based authorization
-
-**Users**
-
-* [ ] User profile
-* [ ] User management
-* [ ] Roles
-
-**Transactions**
-
-* [ ] Create transaction
-* [ ] Transaction history
-* [ ] Transaction status
-* [ ] Transaction reference
-* [ ] Balance calculation
-
-**Database**
-
-* [ ] PostgreSQL
-* [ ] Relationships
-* [ ] Indexes
-* [ ] Transactions
-* [ ] Migrations
-
-**API**
-
-* [ ] REST endpoints
-* [ ] Validation
-* [ ] Error handling
-* [ ] API documentation
-
-**Testing**
-
-* [ ] Unit tests
-* [ ] Integration tests
-* [ ] Authentication tests
-* [ ] Transaction tests
-
-### Achievement
-
-> Build a complete backend application combining everything learned throughout the roadmap.
+Finalize, document, containerize, and deploy the Transaction / Payment Management API as the portfolio capstone.
 
 ---
 
-## Week 20 — Finalization & Deployment
+## Tips for Learning Python as a Beginner
 
-**Dec 28–31**
-
-### Learn & Apply
-
-* [ ] Final testing
-* [ ] Fix bugs
-* [ ] Refactor
-* [ ] Dockerize
-* [ ] Configure CI/CD
-* [ ] Deploy
-* [ ] Update README
-* [ ] Document API
-* [ ] Document architecture
-* [ ] Prepare portfolio
-
-### Final Achievement
-
-> Have a complete, documented, tested, containerized, and deployed Python backend project.
+- Use the official Python docs: [https://docs.python.org/3/](https://docs.python.org/3/)
+- Practice coding daily (20–30 minutes)
+- Start small, build step-by-step
+- Ask questions on Python forums or Stack Overflow
+- Since the Go mental model is already familiar, lean on it when learning FastAPI/Pydantic — routes, handlers, and middleware map closely to `net/http` patterns
 
 ---
 
-# Overall Progress
-
-```text
-Python Basics
-     ↓
-Control Flow
-     ↓
-Collections
-     ↓
-Functions
-     ↓
-Files & JSON
-     ↓
-Modules & OOP
-     ↓
-Professional Python
-     ↓
-Testing & Type Hints
-     ↓
-HTTP & REST
-     ↓
-FastAPI
-     ↓
-PostgreSQL
-     ↓
-Authentication
-     ↓
-Backend Architecture
-     ↓
-Async Python
-     ↓
-Docker
-     ↓
-CI/CD
-     ↓
-Final Backend Project
-```
+Date Started: <b>August 19, 2026</b> <br>
+Actual Date Completed: <b></b> <br>
+Estimated Date Completed: December 31, 2026
 
 ---
 
-# Weekly Project Progression
-
-| Level                   | Projects                              |
-| ----------------------- | ------------------------------------- |
-| Beginner                | Calculator, Guessing Game             |
-| Basic Applications      | Student Records, Expense Tracker      |
-| Structured Applications | Contact Manager, Library System       |
-| Intermediate            | Inventory, Log Analyzer, Task Manager |
-| Professional            | Tested Expense Tracker                |
-| Backend                 | Todo API, Bookstore API               |
-| Advanced Backend        | Authentication API                    |
-| Production              | Containerized API                     |
-| Portfolio               | Transaction / Payment API             |
-
----
-
-# End Goal
-
-By **December 31, 2026**, you should be able to:
-
-* [ ] Write Python independently
-* [ ] Structure Python projects
-* [ ] Use OOP effectively
-* [ ] Work with files and JSON
-* [ ] Manage dependencies
-* [ ] Use type hints
-* [ ] Write automated tests
-* [ ] Work with SQL/PostgreSQL
-* [ ] Build REST APIs
-* [ ] Build FastAPI applications
-* [ ] Implement authentication
-* [ ] Design backend architecture
-* [ ] Use asynchronous Python
-* [ ] Dockerize applications
-* [ ] Create CI/CD pipelines
-* [ ] Deploy backend applications
-* [ ] Build a portfolio-ready Python project
-
-> **Learn → Practice → Build → Test → Refactor → Deploy**
+references
+FastAPI docs: [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
