@@ -25,10 +25,10 @@ Build a Personal Information CLI that collects and displays basic user info.
 ### Week 2: Conditions & Loops
 
 - [x] Day 1: Learn `if / elif / else` and boolean logic
-- [ ] Day 2: Understand `while` loops
-- [ ] Day 3: Understand `for` loops and `range()`
-- [ ] Day 4: Practice `break` and `continue`
-- [ ] Day 5: Write programs using nested loops
+- [x] Day 2: Understand `while` loops
+- [x] Day 3: Understand `for` loops and `range()`
+- [x] Day 4: Practice `break` and `continue`
+- [x] Day 5: Write programs using nested loops
 
 ### Week 2 Side Project:
 
