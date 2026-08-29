@@ -34,6 +34,45 @@ Build a Personal Information CLI that collects and displays basic user info.
 
 Build a Number Guessing Game that gives hints if the guess is too high or low.
 
+### Side Project
+**[Number Guessing Game](weeklyproject/week2.py)**
+
+--- 
+
+The Week 02 project. You've got everything you need now: if/elif/else, while, break, and you just proved you understand how ranges and loops behave, so this should click.
+
+Requirements:
+
+Set secret_number = 7 (hardcoded for now — we'll swap in random module in Week 6)
+Use a while True: loop that keeps asking the user to guess
+Convert their input to an int
+Compare their guess to secret_number:
+Too high → tell them "Too high, try again"
+Too low → tell them "Too low, try again"
+Correct → print a success message and break out of the loop
+Keep a count variable that increases by 1 on every guess
+When they win, print how many guesses it took
+
+Bonus (optional, try only if the core version works):
+
+Limit them to 5 total attempts. If they run out without guessing correctly, print "Game over" and end the game (no need to reveal the number).
+
+output example:
+
+```cmd
+Guess number: 4 
+Too low, try again
+You have 4 tries left.
+Guess number: 5
+Too low, try again
+You have 3 tries left.
+Guess number: 6
+Too low, try again
+You have 2 tries left.
+Guess number: 7
+Correct! You guessed it in 4 tries.
+```
+
 ---
 
 ### Week 3: Collections
