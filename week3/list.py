@@ -1,3 +1,5 @@
+# A list is an ordered, changeable collection of items
+
 fruit = ["apple", "banana", "grapes", "watermelon", "lemon"]
 print(fruit[0]) # "apple" — indexing starts at 0
 print(fruit[-1]) # "cherry" — negative index counts from the end
