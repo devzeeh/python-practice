@@ -77,7 +77,7 @@ Correct! You guessed it in 4 tries.
 
 ### Week 3: Collections
 
-- [ ] Day 1: Learn lists
+- [x] Day 1: Learn lists
 - [ ] Day 2: Learn tuples and sets
 - [ ] Day 3: Learn dictionaries
 - [ ] Day 4: Practice indexing & slicing
