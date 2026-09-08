@@ -78,10 +78,10 @@ Correct! You guessed it in 4 tries.
 ### Week 3: Collections
 
 - [x] Day 1: Learn lists
-- [ ] Day 2: Learn tuples and sets
-- [ ] Day 3: Learn dictionaries
-- [ ] Day 4: Practice indexing & slicing
-- [ ] Day 5: Practice nested collections and collection methods
+- [x] Day 2: Learn tuples and sets
+- [x] Day 3: Learn dictionaries
+- [x] Day 4: Practice indexing & slicing
+- [x] Day 5: Practice nested collections and collection methods
 
 ### Week 3 Side Project:
 
