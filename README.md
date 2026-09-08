@@ -20,6 +20,36 @@ Date Started: August 19, 2026
 
 Build a Personal Information CLI that collects and displays basic user info.
 
+### Side Project
+**[Personal Information CLI](weeklyproject/week1.py)**
+
+---
+
+The Week 01 project. Practice variables, input, output, and type conversion by building a simple CLI that collects and displays personal info.
+
+Requirements:
+
+Ask the user for their name, age, and favorite hobby using input()
+Convert age to an int
+Print a formatted summary using an f-string
+Calculate and print the year they were born (based on current year - age)
+
+Bonus (optional, try only if the core version works):
+
+Ask for height in cm and convert it to feet/inches
+Validate that age input is actually a number before converting
+
+output example:
+
+```cmd
+Enter your name: Alex
+Enter your age: 20
+Enter your favorite hobby: coding
+
+Hi Alex! You are 20 years old and you were born around 2006.
+You enjoy: coding
+```
+
 ---
 
 ### Week 2: Conditions & Loops
@@ -37,7 +67,7 @@ Build a Number Guessing Game that gives hints if the guess is too high or low.
 ### Side Project
 **[Number Guessing Game](weeklyproject/week2.py)**
 
---- 
+---
 
 The Week 02 project. You've got everything you need now: if/elif/else, while, break, and you just proved you understand how ranges and loops behave, so this should click.
 
@@ -85,7 +115,44 @@ Correct! You guessed it in 4 tries.
 
 ### Week 3 Side Project:
 
-Build a Student Record CLI that stores, searches, and modifies structured data.
+### Side Project
+**[Student Record CLI](weeklyproject/week3.py)**
+
+---
+
+The Week 03 project. Store and manage student records using everything from Week 03 — lists, dictionaries, loops, and conditionals.
+
+Requirements:
+
+Store students as a list of dictionaries, each with name, age, and grade
+Build a menu using a while True: loop with these options: Add student, View all students, Search by name, Delete a student, Exit
+Add student — ask for name/age/grade via input(), append a new dict to the list
+View all — loop through and print each student's info
+Search by name — loop through, check if a student's name matches, print if found
+Delete — find the student and remove them from the list
+Exit — break out of the main loop
+
+Bonus (optional, try only if the core version works):
+
+Prevent duplicate names when adding a student
+Sort students by grade before displaying them
+
+output example:
+
+```cmd
+=== Student Record CLI ===
+1. Add Student
+2. View All Students
+3. Search by Name
+4. Delete Student
+5. Exit
+Choose an option: 1
+
+Enter name: Alex
+Enter age: 20
+Enter grade: 88
+Student added!
+```
 
 ---
 
@@ -103,6 +170,35 @@ Build a Student Record CLI that stores, searches, and modifies structured data.
 
 Build a CLI Calculator that handles invalid input safely.
 
+### Side Project
+**[CLI Calculator](weeklyproject/week4.py)**
+
+---
+
+The Week 04 project. Build a calculator that uses functions and handles bad input safely with error handling.
+
+Requirements:
+
+Write separate functions for add, subtract, multiply, divide
+Ask the user to choose an operation and enter two numbers
+Use try/except to catch invalid input (non-numbers) and division by zero
+Loop so the user can perform multiple calculations until they choose to exit
+
+Bonus (optional, try only if the core version works):
+
+Support a history list of past calculations, printable on request
+Add a power/exponent operation using extra arguments
+
+output example:
+
+```cmd
+1. Add  2. Subtract  3. Multiply  4. Divide  5. Exit
+Choose: 4
+Enter first number: 10
+Enter second number: 0
+Error: Cannot divide by zero. Try again.
+```
+
 ---
 
 ### Week 5: Files & Data
@@ -116,6 +212,33 @@ Build a CLI Calculator that handles invalid input safely.
 ### Week 5 Side Project:
 
 Build an Expense Tracker that saves and loads data.
+
+### Side Project
+**[Expense Tracker](weeklyproject/week5.py)**
+
+---
+
+The Week 05 project. Build an app that saves and loads expense data using files and JSON.
+
+Requirements:
+
+Store expenses as a list of dictionaries (description, amount, date)
+Save expenses to a JSON file after every change
+Load existing expenses from the file on startup (if the file exists)
+Menu options: Add expense, View all, Total spent, Exit
+
+Bonus (optional, try only if the core version works):
+
+Filter expenses by date range
+Show spending broken down by category
+
+output example:
+
+```cmd
+1. Add Expense  2. View All  3. Total Spent  4. Exit
+Choose: 3
+Total spent: $245.50
+```
 
 ---
 
@@ -131,6 +254,36 @@ Build an Expense Tracker that saves and loads data.
 
 Build a Contact Manager organized into multiple modules.
 
+### Side Project
+**[Contact Manager](weeklyproject/week6.py)**
+
+---
+
+The Week 06 project. Organize a small application into multiple modules, using standard library tools like datetime and random.
+
+Requirements:
+
+Split code into at least 2 files/modules (e.g. main.py and contacts.py)
+Store contacts as a list of dictionaries (name, phone, email)
+Add, view, search, and delete contacts
+Use datetime to timestamp when each contact was added
+
+Bonus (optional, try only if the core version works):
+
+Generate a random contact ID using the random module
+Save/load contacts using pathlib + JSON
+
+output example:
+
+```cmd
+1. Add  2. View All  3. Search  4. Delete  5. Exit
+Choose: 1
+Name: Jamie
+Phone: 555-0192
+Email: jamie@example.com
+Added on: 2026-09-21
+```
+
 ---
 
 ### Week 7: Object-Oriented Programming
@@ -144,6 +297,35 @@ Build a Contact Manager organized into multiple modules.
 ### Week 7 Side Project:
 
 Build a Library Management System using OOP.
+
+### Side Project
+**[Library Management System](weeklyproject/week7.py)**
+
+---
+
+The Week 07 project. Practice OOP by modeling a library with classes, inheritance, and encapsulation.
+
+Requirements:
+
+Create a Book class (title, author, is_checked_out)
+Create a Library class that holds a list of Book objects
+Methods: add_book, checkout_book, return_book, list_available_books
+Use encapsulation — keep internal book list private-ish (_books), expose via methods
+
+Bonus (optional, try only if the core version works):
+
+Add a Member class and track which member has which book checked out
+Add an EBook subclass that inherits from Book (polymorphism)
+
+output example:
+
+```cmd
+1. Add Book  2. Checkout  3. Return  4. List Available  5. Exit
+Choose: 4
+Available Books:
+- "Python Basics" by J. Doe
+- "Clean Code" by R. Martin
+```
 
 ---
 
@@ -161,6 +343,32 @@ Build a Library Management System using OOP.
 
 Build an Inventory Management CLI as an isolated, well-structured project.
 
+### Side Project
+**[Inventory Management CLI](weeklyproject/week8.py)**
+
+---
+
+The Week 08 project. Set up a properly structured project with virtual environments and dependency management.
+
+Requirements:
+
+Set up a venv, create a requirements.txt
+Structure the project with folders (e.g. src/, .gitignore, .env)
+Store inventory items with name, quantity, price
+Add, update stock, remove item, view total inventory value
+
+Bonus (optional, try only if the core version works):
+
+Read config (like low-stock threshold) from a .env file
+Warn when an item's stock falls below the threshold
+
+output example:
+
+```cmd
+Item: USB Cable | Qty: 3 | Low stock!
+Total inventory value: $482.75
+```
+
 ---
 
 ### Week 9: Advanced Python
@@ -174,6 +382,32 @@ Build an Inventory Management CLI as an isolated, well-structured project.
 ### Week 9 Side Project:
 
 Build a Log Analyzer using Python's advanced language features.
+
+### Side Project
+**[Log Analyzer](weeklyproject/week9.py)**
+
+---
+
+The Week 09 project. Use comprehensions, generators, and decorators to process log data efficiently.
+
+Requirements:
+
+Read a text log file line by line
+Use a list comprehension to filter lines containing "ERROR"
+Use a generator function to yield one parsed log entry at a time (for memory efficiency)
+Use a decorator to time how long the analysis takes
+
+Bonus (optional, try only if the core version works):
+
+Use a context manager (with) to safely handle file access
+Count occurrences of each log level (INFO/WARNING/ERROR) using a dict comprehension
+
+output example:
+
+```cmd
+Found 12 ERROR entries out of 340 total lines.
+Analysis completed in 0.014s.
+```
 
 ---
 
@@ -189,6 +423,32 @@ Build a Log Analyzer using Python's advanced language features.
 
 Build a Task Management System with type-aware, maintainable code.
 
+### Side Project
+**[Task Management System](weeklyproject/week10.py)**
+
+---
+
+The Week 10 project. Add type hints and structured data modeling to a task manager using dataclasses.
+
+Requirements:
+
+Define a Task dataclass with title: str, done: bool, priority: int
+Use type hints on all functions (parameters and return types)
+Use Optional for a task's due date that may not be set
+Store tasks in a List[Task]
+
+Bonus (optional, try only if the core version works):
+
+Use TypedDict for a config dictionary (e.g. sort settings)
+Add a Union type for priority that accepts either int or str labels ("high"/"low")
+
+output example:
+
+```cmd
+[ ] Buy groceries (priority: 2)
+[x] Finish report (priority: 1)
+```
+
 ---
 
 ### Week 11: Testing & Clean Code
@@ -202,6 +462,31 @@ Build a Task Management System with type-aware, maintainable code.
 ### Week 11 Side Project:
 
 Refactor the Expense Tracker into a fully Tested Expense Tracker.
+
+### Side Project
+**[Tested Expense Tracker](weeklyproject/week11.py)**
+
+---
+
+The Week 11 project. Revisit the Week 05 Expense Tracker, but refactor it with clean code principles and add automated tests.
+
+Requirements:
+
+Refactor Week 05's code to follow separation of concerns (e.g. split file I/O from business logic)
+Write pytest unit tests for at least: adding an expense, calculating totals, filtering by category
+Use assertions and proper logging instead of print() for debug output
+
+Bonus (optional, try only if the core version works):
+
+Add pytest fixtures for reusable test data
+Add an integration test that saves and reloads from a real file
+
+output example:
+
+```cmd
+$ pytest
+====== 8 passed in 0.32s ======
+```
 
 ---
 
@@ -219,6 +504,32 @@ Refactor the Expense Tracker into a fully Tested Expense Tracker.
 
 Build a Todo REST API Prototype.
 
+### Side Project
+**[Todo REST API Prototype](weeklyproject/week12.py)**
+
+---
+
+The Week 12 project. Understand HTTP fundamentals by building a simple REST API prototype (no framework yet, or a minimal one).
+
+Requirements:
+
+Design CRUD endpoints conceptually: GET /todos, POST /todos, PUT /todos/{id}, DELETE /todos/{id}
+Implement using Python's built-in http.server or a minimal framework
+Return proper HTTP status codes (200, 201, 404, etc.)
+Return JSON responses
+
+Bonus (optional, try only if the core version works):
+
+Add basic request validation (e.g. reject empty todo titles)
+Add query parameter support for filtering (?done=true)
+
+output example:
+
+```cmd
+POST /todos {"title": "Learn FastAPI"} -> 201 Created
+GET /todos -> 200 OK [{"id":1,"title":"Learn FastAPI","done":false}]
+```
+
 ---
 
 ### Week 13: FastAPI
@@ -232,6 +543,33 @@ Build a Todo REST API Prototype.
 ### Week 13 Side Project:
 
 Build a Todo FastAPI application.
+
+### Side Project
+**[Todo FastAPI](weeklyproject/week13.py)**
+
+---
+
+The Week 13 project. Rebuild the Todo API properly using FastAPI, with validation and auto-generated docs.
+
+Requirements:
+
+Set up a FastAPI app with routes for full CRUD on todos
+Use Pydantic models for request/response validation
+Use path parameters (/todos/{id}) and query parameters (?done=true)
+Handle errors properly (404 for missing todos, 422 for bad input)
+
+Bonus (optional, try only if the core version works):
+
+Add response models to control exactly what's returned
+Explore the auto-generated docs at /docs
+
+output example:
+
+```cmd
+$ uvicorn main:app --reload
+INFO:     Uvicorn running on http://127.0.0.1:8000
+GET /docs -> interactive Swagger UI
+```
 
 ---
 
@@ -247,6 +585,31 @@ Build a Todo FastAPI application.
 
 Build a Bookstore API backed by PostgreSQL.
 
+### Side Project
+**[Bookstore API](weeklyproject/week14.py)**
+
+---
+
+The Week 14 project. Connect FastAPI to a real PostgreSQL database and model relational data.
+
+Requirements:
+
+Design tables: books, authors (with a foreign key relationship)
+Set up PostgreSQL connection (e.g. via SQLAlchemy)
+Implement CRUD endpoints that read/write to the database
+Use a JOIN query to return books with their author's name
+
+Bonus (optional, try only if the core version works):
+
+Add indexes on frequently queried columns
+Wrap multi-step operations in a transaction
+
+output example:
+
+```cmd
+GET /books/1 -> {"title": "Dune", "author": {"name": "Frank Herbert"}}
+```
+
 ---
 
 ### Week 15: Authentication & Authorization
@@ -260,6 +623,33 @@ Build a Bookstore API backed by PostgreSQL.
 ### Week 15 Side Project:
 
 Build an Authentication API with protected endpoints and user roles.
+
+### Side Project
+**[Authentication API](weeklyproject/week15.py)**
+
+---
+
+The Week 15 project. Add user accounts, password security, and protected routes to an API.
+
+Requirements:
+
+Build /register and /login endpoints
+Hash passwords before storing (never store plaintext)
+Issue a JWT on successful login
+Protect at least one route so it requires a valid token
+
+Bonus (optional, try only if the core version works):
+
+Add role-based permissions (e.g. "admin" vs "user")
+Add token expiration and a refresh endpoint
+
+output example:
+
+```cmd
+POST /login {"email": "...", "password": "..."} -> {"access_token": "eyJ..."}
+GET /profile (with token) -> 200 OK
+GET /profile (no token) -> 401 Unauthorized
+```
 
 ---
 
@@ -277,6 +667,31 @@ Build an Authentication API with protected endpoints and user roles.
 
 Build an Async API Aggregator.
 
+### Side Project
+**[Async API Aggregator](weeklyproject/week16.py)**
+
+---
+
+The Week 16 project. Use asyncio to fetch data from multiple sources concurrently instead of sequentially.
+
+Requirements:
+
+Write async functions that each call a different external API (or mock endpoint)
+Use asyncio.gather() to run them concurrently
+Compare and print the time difference between running them sync vs async
+
+Bonus (optional, try only if the core version works):
+
+Add async database queries if your DB driver supports it
+Handle one source failing without crashing the whole aggregation
+
+output example:
+
+```cmd
+Sequential fetch: 3.21s
+Async fetch: 0.89s
+```
+
 ---
 
 ### Week 17: Production Practices
@@ -290,6 +705,33 @@ Build an Async API Aggregator.
 ### Week 17 Side Project:
 
 Upgrade the Todo API toward a Production-Ready Todo API.
+
+### Side Project
+**[Production-Ready Todo API](weeklyproject/week17.py)**
+
+---
+
+The Week 17 project. Take an earlier API and harden it with production practices.
+
+Requirements:
+
+Move secrets/config into environment variables
+Add structured logging and basic error handling middleware
+Add a /health check endpoint
+Add pagination and filtering to list endpoints
+Add API versioning (e.g. /v1/todos)
+
+Bonus (optional, try only if the core version works):
+
+Add a database migration tool (e.g. Alembic)
+Add basic rate limiting
+
+output example:
+
+```cmd
+GET /health -> {"status": "ok"}
+GET /v1/todos?page=2&limit=10 -> paginated results
+```
 
 ---
 
@@ -305,6 +747,33 @@ Upgrade the Todo API toward a Production-Ready Todo API.
 
 Turn a previous FastAPI project into an Automated Python REST API: add automated tests, a GitHub Actions workflow, test-on-push and test-on-PR, environment configuration, a deployment process, and an updated README with CI/CD instructions.
 
+### Side Project
+**[Automated Python REST API](weeklyproject/week18.py)**
+
+---
+
+The Week 18 project. Automate testing and deployment checks using GitHub Actions.
+
+Requirements:
+
+Write a GitHub Actions workflow file (.github/workflows/)
+Run automated tests on every push and pull request
+Configure environment variables/secrets in the workflow
+Document the CI/CD setup in the README
+
+Bonus (optional, try only if the core version works):
+
+Add a deployment step triggered only on merges to main
+Add a build/check step that fails the pipeline on lint errors
+
+output example:
+
+```cmd
+Build passed
+Tests: 12 passed
+Deploy to staging: success
+```
+
 ---
 
 ### Week 19: Final Portfolio Project — Transaction / Payment Management API
@@ -319,6 +788,35 @@ Turn a previous FastAPI project into an Automated Python REST API: add automated
 
 Build the complete Transaction / Payment Management API.
 
+### Side Project
+**[Transaction / Payment Management API](weeklyproject/week19.py)**
+
+---
+
+The Week 19 project (final portfolio project). Combine everything from the roadmap into one complete backend application.
+
+Requirements:
+
+Full authentication system (register, login, JWT, roles)
+User profile and management endpoints
+Transaction endpoints: create, view history, check status, calculate balance
+PostgreSQL with proper relationships, indexes, and migrations
+Full REST API with validation, error handling, and docs
+Unit and integration tests covering auth and transactions
+
+Bonus (optional, try only if the core version works):
+
+Add transaction categories/tags
+Add an admin dashboard endpoint summarizing all transactions
+
+output example:
+
+```cmd
+POST /transactions {"amount": 50, "type": "deposit"} -> 201 Created
+GET /transactions/history -> [...]
+GET /balance -> {"balance": 320.00}
+```
+
 ---
 
 ### Week 20: Finalization & Deployment
@@ -331,6 +829,34 @@ Build the complete Transaction / Payment Management API.
 ### Week 20 Side Project:
 
 Finalize, document, containerize, and deploy the Transaction / Payment Management API as the portfolio capstone.
+
+### Side Project
+**[Finalized Portfolio Deployment](weeklyproject/week20.py)**
+
+---
+
+The Week 20 project. Polish, test, containerize, and deploy the final project as a portfolio piece.
+
+Requirements:
+
+Fix any remaining bugs from Week 19
+Refactor for clean code and consistency
+Write a Dockerfile and containerize the app
+Set up CI/CD deployment for the final project
+Write full documentation: setup instructions, API docs, architecture overview
+
+Bonus (optional, try only if the core version works):
+
+Deploy to a live host (e.g. Render, Railway, Fly.io)
+Record a short demo (GIF or video) for the README
+
+output example:
+
+```cmd
+$ docker build -t transaction-api .
+$ docker run -p 8000:8000 transaction-api
+Deployed: https://your-api-url.example.com
+```
 
 ---
 
