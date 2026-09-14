@@ -160,8 +160,8 @@ Student added!
 
 ### Week 4: Functions & Error Handling
 
-- [ ] Day 1: Learn functions, parameters, and arguments
-- [ ] Day 2: Learn return values and default arguments
+- [x] Day 1: Learn functions, parameters, and arguments
+- [x] Day 2: Learn return values and default arguments
 - [ ] Day 3: Practice `*args` and `**kwargs`
 - [ ] Day 4: Learn `try / except` error handling
 - [ ] Day 5: Use `raise` to build input validation
