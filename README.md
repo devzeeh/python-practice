@@ -171,7 +171,7 @@ Student added!
 Build a CLI Calculator that handles invalid input safely.
 
 ### Side Project
-**[CLI Calculator](weeklyproject/week4.py)**
+**[CLI Calculator](weeklyproject/)**
 
 ---
 
@@ -214,7 +214,7 @@ Error: Cannot divide by zero. Try again.
 Build an Expense Tracker that saves and loads data.
 
 ### Side Project
-**[Expense Tracker](weeklyproject/week5.py)**
+**[Expense Tracker](weeklyproject/)**
 
 ---
 
@@ -255,7 +255,7 @@ Total spent: $245.50
 Build a Contact Manager organized into multiple modules.
 
 ### Side Project
-**[Contact Manager](weeklyproject/week6.py)**
+**[Contact Manager](weeklyproject/)**
 
 ---
 
@@ -299,7 +299,7 @@ Added on: 2026-09-21
 Build a Library Management System using OOP.
 
 ### Side Project
-**[Library Management System](weeklyproject/week7.py)**
+**[Library Management System](weeklyproject/)**
 
 ---
 
@@ -344,7 +344,7 @@ Available Books:
 Build an Inventory Management CLI as an isolated, well-structured project.
 
 ### Side Project
-**[Inventory Management CLI](weeklyproject/week8.py)**
+**[Inventory Management CLI](weeklyproject/)**
 
 ---
 
@@ -384,7 +384,7 @@ Total inventory value: $482.75
 Build a Log Analyzer using Python's advanced language features.
 
 ### Side Project
-**[Log Analyzer](weeklyproject/week9.py)**
+**[Log Analyzer](weeklyproject/)**
 
 ---
 
@@ -424,7 +424,7 @@ Analysis completed in 0.014s.
 Build a Task Management System with type-aware, maintainable code.
 
 ### Side Project
-**[Task Management System](weeklyproject/week10.py)**
+**[Task Management System](weeklyproject/)**
 
 ---
 
@@ -464,7 +464,7 @@ output example:
 Refactor the Expense Tracker into a fully Tested Expense Tracker.
 
 ### Side Project
-**[Tested Expense Tracker](weeklyproject/week11.py)**
+**[Tested Expense Tracker](weeklyproject/)**
 
 ---
 
@@ -505,7 +505,7 @@ $ pytest
 Build a Todo REST API Prototype.
 
 ### Side Project
-**[Todo REST API Prototype](weeklyproject/week12.py)**
+**[Todo REST API Prototype](weeklyproject/)**
 
 ---
 
@@ -545,7 +545,7 @@ GET /todos -> 200 OK [{"id":1,"title":"Learn FastAPI","done":false}]
 Build a Todo FastAPI application.
 
 ### Side Project
-**[Todo FastAPI](weeklyproject/week13.py)**
+**[Todo FastAPI](weeklyproject/)**
 
 ---
 
@@ -586,7 +586,7 @@ GET /docs -> interactive Swagger UI
 Build a Bookstore API backed by PostgreSQL.
 
 ### Side Project
-**[Bookstore API](weeklyproject/week14.py)**
+**[Bookstore API](weeklyproject/)**
 
 ---
 
@@ -625,7 +625,7 @@ GET /books/1 -> {"title": "Dune", "author": {"name": "Frank Herbert"}}
 Build an Authentication API with protected endpoints and user roles.
 
 ### Side Project
-**[Authentication API](weeklyproject/week15.py)**
+**[Authentication API](weeklyproject/)**
 
 ---
 
@@ -668,7 +668,7 @@ GET /profile (no token) -> 401 Unauthorized
 Build an Async API Aggregator.
 
 ### Side Project
-**[Async API Aggregator](weeklyproject/week16.py)**
+**[Async API Aggregator](weeklyproject/)**
 
 ---
 
@@ -707,7 +707,7 @@ Async fetch: 0.89s
 Upgrade the Todo API toward a Production-Ready Todo API.
 
 ### Side Project
-**[Production-Ready Todo API](weeklyproject/week17.py)**
+**[Production-Ready Todo API](weeklyproject/)**
 
 ---
 
@@ -748,7 +748,7 @@ GET /v1/todos?page=2&limit=10 -> paginated results
 Turn a previous FastAPI project into an Automated Python REST API: add automated tests, a GitHub Actions workflow, test-on-push and test-on-PR, environment configuration, a deployment process, and an updated README with CI/CD instructions.
 
 ### Side Project
-**[Automated Python REST API](weeklyproject/week18.py)**
+**[Automated Python REST API](weeklyproject/)**
 
 ---
 
@@ -789,7 +789,7 @@ Deploy to staging: success
 Build the complete Transaction / Payment Management API.
 
 ### Side Project
-**[Transaction / Payment Management API](weeklyproject/week19.py)**
+**[Transaction / Payment Management API](weeklyproject/)**
 
 ---
 
@@ -831,7 +831,7 @@ GET /balance -> {"balance": 320.00}
 Finalize, document, containerize, and deploy the Transaction / Payment Management API as the portfolio capstone.
 
 ### Side Project
-**[Finalized Portfolio Deployment](weeklyproject/week20.py)**
+**[Finalized Portfolio Deployment](weeklyproject/)**
 
 ---
 
