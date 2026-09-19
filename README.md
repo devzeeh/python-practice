@@ -203,11 +203,11 @@ Error: Cannot divide by zero. Try again.
 
 ### Week 5: Files & Data
 
-- [ ] Day 1: Learn file reading
-- [ ] Day 2: Learn file writing and `pathlib`
-- [ ] Day 3: Practice working with CSV files
-- [ ] Day 4: Practice working with JSON and serialization
-- [ ] Day 5: Build persistent data patterns
+- [x] Day 1: Learn file reading
+- [x] Day 2: Learn file writing and `pathlib`
+- [x] Day 3: Practice working with CSV files
+- [x] Day 4: Practice working with JSON and serialization
+- [x] Day 5: Build persistent data patterns
 
 ### Week 5 Side Project:
 
