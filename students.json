@@ -13,5 +13,10 @@
         "name": "Rina",
         "age": 26,
         "grade": 95
+    },
+    {
+        "name": "ahye",
+        "age": 20,
+        "grade": 92
     }
 ]
