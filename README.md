@@ -171,7 +171,7 @@ Student added!
 Build a CLI Calculator that handles invalid input safely.
 
 ### Side Project
-**[CLI Calculator](weeklyproject/)**
+**[CLI Calculator](weeklyproject/week4.py)**
 
 ---
 
