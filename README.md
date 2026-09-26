@@ -244,7 +244,7 @@ Total spent: $245.50
 
 ### Week 6: Modules & Packages
 
-- [ ] Day 1: Learn `import` and custom modules
+- [x] Day 1: Learn `import` and custom modules
 - [ ] Day 2: Learn packages and `__init__.py`
 - [ ] Day 3: Explore the standard library
 - [ ] Day 4: Practice `datetime` and `random`
