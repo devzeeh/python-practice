@@ -214,7 +214,7 @@ Error: Cannot divide by zero. Try again.
 Build an Expense Tracker that saves and loads data.
 
 ### Side Project
-**[Expense Tracker](weeklyproject/)**
+**[Expense Tracker](weeklyproject/week5)**
 
 ---
 
