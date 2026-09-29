@@ -255,7 +255,7 @@ Total spent: $245.50
 Build a Contact Manager organized into multiple modules.
 
 ### Side Project
-**[Contact Manager](weeklyproject/)**
+**[Contact Manager](weeklyproject/week6)**
 
 ---
 
