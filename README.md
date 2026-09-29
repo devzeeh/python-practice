@@ -245,10 +245,10 @@ Total spent: $245.50
 ### Week 6: Modules & Packages
 
 - [x] Day 1: Learn `import` and custom modules
-- [ ] Day 2: Learn packages and `__init__.py`
-- [ ] Day 3: Explore the standard library
-- [ ] Day 4: Practice `datetime` and `random`
-- [ ] Day 5: Practice `pathlib` and `os`
+- [x] Day 2: Learn packages and `__init__.py`
+- [x] Day 3: Explore the standard library
+- [x] Day 4: Practice `datetime` and `random`
+- [x] Day 5: Practice `pathlib` and `os`
 
 ### Week 6 Side Project:
 
