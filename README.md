@@ -288,11 +288,11 @@ Added on: 2026-09-21
 
 ### Week 7: Object-Oriented Programming
 
-- [ ] Day 1: Learn classes and objects
-- [ ] Day 2: Learn attributes, methods, and `__init__`
-- [ ] Day 3: Learn encapsulation
-- [ ] Day 4: Learn inheritance and polymorphism
-- [ ] Day 5: Learn composition
+- [x] Day 1: Learn classes and objects
+- [x] Day 2: Learn attributes, methods, and `__init__`
+- [x] Day 3: Learn encapsulation
+- [x] Day 4: Learn inheritance and polymorphism
+- [x] Day 5: Learn composition
 
 ### Week 7 Side Project:
 
