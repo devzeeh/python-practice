@@ -378,9 +378,9 @@ Total Value: P7502.85
 
 - [x] Day 1: Learn list and dictionary comprehensions
 - [x] Day 2: Learn set comprehensions and iterators
-- [ ] Day 3: Learn generators and `yield`
-- [ ] Day 4: Learn decorators
-- [ ] Day 5: Learn context managers
+- [x] Day 3: Learn generators and `yield`
+- [x] Day 4: Learn decorators
+- [x] Day 5: Learn context managers
 
 ### Week 9 Side Project:
 
