@@ -344,29 +344,32 @@ Available Books:
 Build an Inventory Management CLI as an isolated, well-structured project.
 
 ### Side Project
-**[Inventory Management CLI](weeklyproject/)**
+**[Inventory Management CLI](weeklyproject/week8/inventory-cli)**
 
 ---
 
-The Week 08 project. Set up a properly structured project with virtual environments and dependency management.
+The Week 08 project. Build an Inventory Management CLI using a clean project structure, a virtual environment, and simple dependency management.
 
 Requirements:
 
-Set up a venv, create a requirements.txt
-Structure the project with folders (e.g. src/, .gitignore, .env)
-Store inventory items with name, quantity, price
-Add, update stock, remove item, view total inventory value
+- Set up a Python virtual environment with `venv`
+- Create a `requirements.txt` for any project dependencies
+- Organize the project with folders such as `src/`, `.gitignore`, and `.env`
+- Define inventory items with at least: `name`, `quantity`, and `price`
+- Allow users to add items, update stock, remove items, and list inventory
+- Calculate and display the total inventory value
+- Keep the CLI readable and easy to run from the project root
 
-Bonus (optional, try only if the core version works):
+Bonus (optional, only if the core version works):
 
-Read config (like low-stock threshold) from a .env file
-Warn when an item's stock falls below the threshold
 
-output example:
+Example output:
 
 ```cmd
-Item: USB Cable | Qty: 3 | Low stock!
-Total inventory value: $482.75
+Initial quantity: 12
+Quantity after add stock 10: 22
+Quantity after removing stock: 15
+Total Value: P7502.85
 ```
 
 ---
