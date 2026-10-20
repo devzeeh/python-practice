@@ -333,11 +333,11 @@ Available Books:
 
 ### Week 8: Environments & Dependencies
 
-- [ ] Day 1: Learn `venv` and `pip`
-- [ ] Day 2: Learn third-party packages and `requirements.txt`
-- [ ] Day 3: Learn `.env` and environment variables
-- [ ] Day 4: Learn `.gitignore`
-- [ ] Day 5: Practice proper project structure
+- [x] Day 1: Learn `venv` and `pip`
+- [x] Day 2: Learn third-party packages and `requirements.txt`
+- [x] Day 3: Learn `.env` and environment variables
+- [x] Day 4: Learn `.gitignore`
+- [x] Day 5: Practice proper project structure
 
 ### Week 8 Side Project:
 
