@@ -387,7 +387,7 @@ Total Value: P7502.85
 Build a Log Analyzer using Python's advanced language features.
 
 ### Side Project
-**[Log Analyzer](weeklyproject/)**
+**[Log Analyzer](weeklyproject/week9/log-analyzer)**
 
 ---
 
