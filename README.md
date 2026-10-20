@@ -376,8 +376,8 @@ Total Value: P7502.85
 
 ### Week 9: Advanced Python
 
-- [ ] Day 1: Learn list and dictionary comprehensions
-- [ ] Day 2: Learn set comprehensions and iterators
+- [x] Day 1: Learn list and dictionary comprehensions
+- [x] Day 2: Learn set comprehensions and iterators
 - [ ] Day 3: Learn generators and `yield`
 - [ ] Day 4: Learn decorators
 - [ ] Day 5: Learn context managers
