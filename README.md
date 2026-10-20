@@ -416,11 +416,11 @@ Analysis completed in 0.014s.
 
 ### Week 10: Type Hints & Data Modeling
 
-- [ ] Day 1: Learn type annotations and function types
-- [ ] Day 2: Learn collection types
-- [ ] Day 3: Learn `Optional` and `Union`
-- [ ] Day 4: Learn `TypedDict` and dataclasses
-- [ ] Day 5: Learn type aliases
+- [x] Day 1: Learn type annotations and function types
+- [x] Day 2: Learn collection types
+- [x] Day 3: Learn `Optional` and `Union`
+- [x] Day 4: Learn `TypedDict` and dataclasses
+- [x] Day 5: Learn type aliases
 
 ### Week 10 Side Project:
 
